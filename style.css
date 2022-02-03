@@ -1,0 +1,63 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/* Colors */
+:root{
+    /* Primary */
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+
+}
+*{
+    margin: 0;
+    font-family: 'Outfit';
+}
+/* desktop Media */
+@media screen and (max-width: 1440px){
+   
+ }
+
+ /* mobile Media */
+ @media screen and (max-width: 375px){
+   
+}
+
+main{
+    background-color:var(--lightGray) ;
+    display: flex;
+    justify-content: center;
+}
+
+#cardBody{
+    width: 325px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10% 0;
+}
+#cardBody img{
+    width: 285px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#txt{
+    margin: 0 35px;
+    text-align: center;
+}
+#txt h3{
+    font-size: 22px;
+    color: var(--darkBlue);
+}
+#txt p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: var(--grayishBlue);
+    
+
+}
+
+/* footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
