@@ -26,6 +26,11 @@
 main{
     background-color:var(--lightGray) ;
     display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.card{
+    display: flex;
     justify-content: center;
 }
 
