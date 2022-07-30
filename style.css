@@ -29,28 +29,28 @@ main{
     justify-content: center;
 }
 
-#cardBody{
+.cardBody{
     width: 325px;
     height: 500px;
     background-color: white;
     border-radius: 20px;
     margin: 10% 0;
 }
-#cardBody img{
+.cardBody img{
     width: 285px;
     border-radius: 20px;
     margin: 20px;
 }
 
-#txt{
+.txt{
     margin: 0 35px;
     text-align: center;
 }
-#txt h3{
+.txt h3{
     font-size: 22px;
     color: var(--darkBlue);
 }
-#txt p{
+.txt p{
     margin-top: 20px;
     font-size: 15px;
     color: var(--grayishBlue);
